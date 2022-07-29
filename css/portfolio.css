@@ -270,7 +270,7 @@ footer {
   flex-direction: row;
   align-items: center;
   padding-right: .5rem;
-  margin: 2rem 0;
+  margin: 1rem 0;
   width: 100%;
   border: 3px solid #06697A;
   color: #000000;
@@ -281,10 +281,10 @@ footer {
 .teaching-intro-text {
       flex: 2 0 67%;
       color: 000000;
-      padding: 2rem 0 2rem 2rem;
+      padding: 1.5rem 0 1.5rem 1.5rem;
 }
 .teaching-intro-text p {
-    margin: 1.5rem 0;
+    margin: 1rem 0;
 }
 .teaching-intro-text a:hover {
     color: #06697A;
@@ -294,7 +294,7 @@ footer {
 }
 .teaching-intro-images {
     flex: 1 0 33%;
-    padding-top: .75rem;
+    padding-top: 1rem;
     padding-left: .5rem;
     padding-right: 2rem;
     text-align: right;
@@ -303,7 +303,8 @@ footer {
   position: relative;
   cursor: pointer;
   margin-left: .5rem;
-  margin-bottom: 1rem;
+  margin-bottom: .75rem;
+  margin-top: .75rem;
 }
 .teaching-intro-image-overlay {
   position: absolute;
