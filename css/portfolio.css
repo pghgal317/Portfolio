@@ -317,3 +317,65 @@ footer {
 .teaching-intro-image-overlay:hover {
   opacity: 1;
 }
+
+.techwise-intro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: .5rem;
+  margin: 2rem 0;
+  width: 100%;
+  border: 3px solid #06697A;
+  color: #000000;
+  font-size: 1.25rem;
+  background-color: #a99879;
+  background-image: radial-gradient(ellipse farthest-side at right center, #D97829  0%, #FAF0E6 100%);
+}
+.techwise-intro-text {
+      flex: 2 0 67%;
+      color: 000000;
+      padding: 1.5rem 0 1.5rem 1.5rem;
+}
+.techwise-intro-text p {
+    margin: 1.5rem 0;
+}
+.techwise-intro-text a:hover {
+    color: #06697A;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+.techwise-intro-images {
+    flex: 1 0 33%;
+    padding-top: .5rem;
+    padding-right: 2rem;
+    text-align: right;
+}
+.techwise-intro-image {
+  padding-top: .5rem;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+.techwise-intro-image-overlay {
+  position: absolute;
+  padding-top: .5rem;
+  left: 0;
+  top: 0;
+  width: 250px;
+  height: 200px;
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: opacity 1.5s ease;
+  transition: opacity 1.5s ease;
+}
+.techwise-intro-image-overlay:hover {
+  opacity: 1;
+}
+.techwise-intro-video {
+  flex: 1 0 33%;
+  padding-top: .5rem;
+  padding-right: 2rem;
+  width: 350px;
+  height: 250px;
+}
