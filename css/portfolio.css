@@ -294,13 +294,15 @@ footer {
 }
 .teaching-intro-images {
     flex: 1 0 33%;
-    padding-top: .5rem;
+    padding-top: .75rem;
+    padding-left: .5rem;
     padding-right: 2rem;
     text-align: right;
 }
 .teaching-intro-image {
   position: relative;
   cursor: pointer;
+  margin-left: .5rem;
   margin-bottom: 1rem;
 }
 .teaching-intro-image-overlay {
